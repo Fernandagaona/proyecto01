@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(235,142,142);
+background: radial-gradient(circle, rgba(235,142,142,1) 22%, rgba(208,160,233,1) 91%);
+}
+header{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: 50px;
+}
+img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background: #fff;
+    border: 1px solid black;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+section{
+    width: 400px;
+    height: 600px;
+    background: white;
+    margin: auto;
+    border-radius: 30px;
+    padding: 30px;
+    position: relative;
+    top: -60px;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    margin-top: 20px;
+    border: 2px solid lavenderblush;
+    border-radius: 10px;
+}
+input:focus{
+    box-shadow: 0 0 20px rgb(53, 196, 17);
+}
+input::placeholder{
+    padding-left: 15px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+button{
+    width: 100px;
+    height: 45px;
+    margin: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+.claro{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.mover{
+    margin-top: 30px;
+}
+.btn-login{
+    background: rgb(226, 255, 60);
+}
+.btn-face{
+    background: rgb(57, 57, 245);
+}
+.btn-git{
+    background: rgb(0, 0, 0);
+}
+.btn-insta{
+    background:  rgb(212, 12, 212);
+}
+.btn-google{
+    background:  rgb(75, 196, 64);
+}
