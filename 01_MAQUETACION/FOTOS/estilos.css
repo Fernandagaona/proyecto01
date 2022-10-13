@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(32, 32, 32);
+    font-family: 'Noto Sans Mono', monospace;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(122, 238, 228);
+    padding: 15px;
+   
+    text-align: center;
+}
+div{
+    background: transparent;
+    width: 50%;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    position:center;
+ 
+
+}
+p{
+    margin: 3px;
+    opacity: 100%;
+    text-align: center;
+}
+#Res{
+    border: 2px ;
+    background: transparent;
+    width:auto;
+    width: auto;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+   
+
+}
+b{
+    text-align: center;
+}
